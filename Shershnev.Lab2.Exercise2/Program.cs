@@ -19,7 +19,7 @@ namespace Shershnev.Lab2.Exercise2
 
             // Объявляем y.
             double y;
-            y = 1 / 7.0 + Math.Log(Math.Abs(x / 3)) + x - 7 + Math.Max(x / 3, 3) + Math.Cos(x / 3) / Math.Sin(x / 3) + Math.Pow(2, x + 1);
+            y = 1 / 7.0 + Math.Log(Math.Abs(x / 3)) + x - 7 + Math.Max(x / 3, 3) + Math.Cos(x / 3) / Math.Sin(x / 3) + Math.Pow(2, x) + 1;
 
             // Выводим информацию о значение y.
             Console.WriteLine(y);
